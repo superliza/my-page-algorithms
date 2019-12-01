@@ -8,7 +8,7 @@
 	PSEUDOC”DIGO
 		0.	Inicio
 		1.	Inicializar variable:
-			1.1	fCount ê 0
+			1.1	fCount <- 0
 		2.	Para(fCount; eCount <= 10; fCount += 0.5)
 			2.1	Imprimir fCount
 		3.	Fin Para
