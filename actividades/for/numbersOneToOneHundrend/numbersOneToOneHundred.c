@@ -28,6 +28,6 @@ int main() {
 	for(eCount; eCount <= 100; ++eCount) {
 		
 		//Muestra en pantalla los números del 1 al 100.
-		printf("%i", eCount);
+		printf("\t%i", eCount);
 	} //Fin del ciclo for.
 } //Fin de la función main.
