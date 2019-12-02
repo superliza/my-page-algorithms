@@ -71,21 +71,27 @@ int main() {
 		eHeight = eShort;
 	}
 	
-	//Mientras la variable eCounterColumns sea menor o igual a la variable eHeight...
-	while(eCounterColumns <= eHeight) {
-		//... entonces: ejecutar el ciclo for, el cual irá contando las filas y,...
-		for(eCounterFiles = 1; eCounterFiles <= eBase; eCounterFiles++)
+//	printf("%i", eBase);
+	
+	//Mientras la variable eCounterFiles sea menor o igual a la variable eHeight...
+	while(eCounterFiles <= eHeight) {
+		//... entonces se ejecutará el ciclo for, el cual irá contando las columnas y,...
+		for(eCounterColumns = 1; eCounterColumns <= eBase; eCounterColumns++)
 		/*(Mientras la condición del while sea verdadera, se ejecutará otro ciclo for dentro,
-			el cual va imprimiendo los asteríscos en forma de fila, hasta llegar al número que
-		    proporcionó el usuario para la base del rectángulo.
-			Una vez que se cumplió ese ciclo, pasa a aumentar el número de columnas en la línea
-			89, entonces, si de inicio, la variable eCunterColumns valía 1, después de aumentar su valor
-			en 1, valdrá 2 y se vuelve a ejecutar el ciclo for. Esto se repetirá hasta que eCounterColumns
-			llegue al valor que tiene la variable eHeight)*/
-			printf("*");
-			printf("\n");
-			/*... posteriormente ir contando las columnas hasta llegar al número que proporcionó
-			  el usuario para la altura del rectángulo.*/
-			eCounterColumns++;
-	}
-}
+			el cual va imprimiendo los asteríscos en forma de columna, hasta llegar al número que 
+			proporcionó el usuario para la base del rectángulo.
+			Una vez que se cumplió ese ciclo, pasa a incrementar el número de filas en la línea
+			95, entonces, si de inicio, la variable eCunterFiles valía 1, después de incrementar su valor
+			en 1, valdrá 2 y se vuelve a ejecutar el ciclo for y se vuelve a repetir el ciclo,
+			 pero en lugar de que los asteríscos se se acomoden en una sola línea, se
+			acomodarán en forma de fila por el salto de línea)*/
+			printf("*"); // **** (se acomodan en lína y dejan un salto de líena [primera vuelta del while])
+			printf("\n");// **** (se acomodan en forma de línea y se acomodan en el salto de línea que había
+			/*en el ciclo anterior del for y también dejan un salto de línea [y así sucesivamente hasta 
+			cumplir con el ciclo] */
+			//termina el ciclo for.
+			/*... una vez que haya terminado el ciclo for, el ciclo while irá contando las filas hasta 
+				llegar al número que proporcionó el usuario para la altura del rectángulo.*/
+			eCounterFiles++; //(incrementa en 1 el valor de las filas)
+	}//termina el ciclo while.
+}//termina el programa.
