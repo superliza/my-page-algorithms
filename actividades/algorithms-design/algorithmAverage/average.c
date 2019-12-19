@@ -5,36 +5,36 @@
 	Date: 17/12/19 00:34
 	Description: Obtener el promedio de un alumno con 5 calificaciones y mostrar su número de cuenta.
 	
-	Pseudocódigo
-		0. Inicio
-		1. Inicializar variables
-			1.1 fQualification1 <- 0
-			1.2 fQualification2 <- 0
-			1.3 fQualification3 <- 0
-			1.4 fQualification4 <- 0
-			1.5 fQualification5 <- 0
-			1.6 fSumQualifications <- 0
-			1.7 cAccountNumber[10] <- “012345678”
-			1.8 fResult <- 0
-		2. Inicializar constante
-			o keNumDivisor <- 5
-		3. Escribir “dame tu número de cuenta con nueve caracteres”.
-		4. Leer cAccountNumber
-		5. Escribir “dame la primera calificación”.
-		6. Leer fQualification1
-		7. Escribir “dame la segunda calificación”.
-		8. Leer fQualification2
-		9. Escribir “dame la tercera calificación”.
-		10. Leer fQualification3
-		11. Escribir “dame la cuarta calificación”.
-		12. Leer fQualification4.
-		13. Escribir “dame la quinta calificación”.
-		14. Leer fQualification5
-		15. Calcular fSumQualifications <- (fQualification1 + fQualification2 + fQualification3 + fQualification4 + fQualification5)
-		16. Calcular fResult <- (fSumQualifications / keNumDivisor)
-		17. Imprimir “Tu número de cuenta es” cAccountNumber.
-		18. Imprimir “Tu promedio es” fResult
-		19. Fin
+	PSEUDOCÓDIGO
+		0.	Inicio
+		1.	Inicializar variables
+			1.1	fQualification1 <- 0
+			1.2	fQualification2 <- 0
+			1.3	fQualification3 <- 0
+			1.4	fQualification4 <- 0
+			1.5	fQualification5 <- 0
+			1.6	fSumQualifications <- 0
+			1.7	cAccountNumber[10] <- "012345678"
+			1.8	fResult <- 0
+		2.	Inicializar constante
+			2.1	keNumDivisor <- 5
+		3.	Imprimir "Escribe tu número de cuenta con nueve caracteres: "
+		4.	Leer cAccountNumber.
+		5.	Imprimir "Escribe la primera calificación: "
+		6.	Leer fQualification1.
+		7.	Imprimir "Escribe la segunda calificación: "
+		8.	Leer fQualification2.
+		9.	Imprimir "Escribe la tercera calificación: "
+		10.	Leer fQualification3.
+		11.	Imprimir "Escribe la cuarta calificación: "
+		12.	Leer fQualification4.
+		13.	Imprimir "Escribe la quinta calificación: "
+		14.	Leer fQualification5.
+		15.	Calcular fSumQualifications <- (fQualification1 + fQualification2 + fQualification3 + fQualification4 + fQualification5)
+		16.	Calcular fResult <- (fSumQualifications / keNumDivisor)
+		17.	Imprimir "Tu número de cuenta es: ", cAccountNumber "Y tu promedio es: ", fResult
+		18.	Fin
+
 */
 
 //Biblioteca al preprocesador para funciones de entrada y salida principalmente.
