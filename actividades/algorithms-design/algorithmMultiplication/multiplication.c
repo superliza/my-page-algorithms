@@ -5,34 +5,33 @@
 	Date: 18/12/19 18:00
 	Description: Es un problema matemático donde se requiere multiplicar 4 dígitos de tipo entero por 10 cada uno.
 	
-	Pseudocódigo:
-		0. Inicio
-		1. Inicializar variables
-			1.1 eNumberA: entero <- 0
-			1.2 eNumberB: entero <- 0
-			1.3 eNumberC: entero <- 0
-			1.4 eNumberD: enteto <- 0
-			1.5 eResultA: entero <- 0
-			1.6 eResultB: entero <- 0
-			1.7 eResultC: entero <- 0
-			1.8 eResultD: entero <- 0
-		2. Inicializar constante
-			2.1 keNumberE <- 10
-		3. Escribir "dame el valor del número a”
-		4. Leer eNumberA
-		5. Calcular eResultA <- (eNumberA* keNumberE)
-		6. Escribir "dame el valor del número b”
-		7. Leer "eNumberB"
-		8. Calcular eResultB <- (eNumberB * keNumberE)
-		9. Escribir "dame el valor de c”
-		10. Leer "eResultC"
-		11. Calcular eResultC <- (eNumberC * keNumberE)
-		12. Escribir "dame el valor de d”
-		13. Leer "eResultD"
-		14. Calcular eResultD <- (eNumberD * keNumberE)
-		15. Imprimir "El resultado de las multiplicaciones de los números a, b, c, d es" eResultA, eResultB, eResultC, eResultD.
-		16. Fin
-
+	PSEUDOCÓDIGO
+		0.	Inicio
+		1.	Inicializar variables: 
+			1.1	eNumberA <- 0
+			1.2	eNumberB <- 0
+			1.3	eNumberC <- 0
+			1.4	eNumberD <- 0
+			1.5	eResultA <- 0
+			1.6	eResultB <- 0
+			1.7	eResultC <- 0
+			1.8	eResultD <- 0
+		2.	Inicializar constante:
+			2.1	keNumberE <- 10
+		3.	Imprimir "Escribe el valor del número 'a': "
+		4.	Leer eNumberA
+		5.	Calcular eResultA <- (eNumberA* keNumberE)
+		6.	Imprimir "Escribe el valor del número 'b': "
+		7.	Leer eNumberB
+		8.	Calcular eResultB <- (eNumberB * keNumberE)
+		9.	Imprimir "Escribe el valor del número 'c': "
+		10.	 Leer eResultC
+		11.	 Calcular eResultC <- (eNumberC * keNumberE)
+		12.	 Imprimir "Escribe el valor del número 'd': "
+		13.	 Leer eResultD
+		14.	 Calcular eResultD <- (eNumberD * keNumberE)
+		15.	 Imprimir "El resultado de las multiplicaciones de los números 'a', 'b', 'c' y 'd', es: " eResultA, eResultB, eResultC, eResultD.
+		16.	 Fin
 */
 
 //Biblioteca al preprocesador para funciones de entrada y salida principalmente.

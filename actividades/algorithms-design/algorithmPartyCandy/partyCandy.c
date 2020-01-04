@@ -5,21 +5,24 @@
 	Date: 15/12/19 20:03
 	Description: Calcular cuántos dulces se consumieron en una fiesta y el gasto del consumo, tomando en cuenta un precio de $12.
 	
-	PSEUDOCÓDIGO 
-		0. Inicio 
-		1. Inicializar variables: 
-			1.1 eCandyLeftOver <- 0 
-			1.2 eTotalCandy <- 0 
-			1.3 eTotalCandyPurchased <- 0 
-			1.4 keCandyPrice <- 12 
-		2. Imprimir “¿Cuántos dulces compraste?” 
-		3. Leer eTotalCandyPurchased. 
-		4. Imprimir “¿Cuántos dulces sobraron?” 
-		5. Leer eCandyLeftOver. 
-		6. Calcular eTotalCandy <- eTotalCandyPurchased – eCandyLeftOver 
-		7. Calcular eTotalConsuption <- eTotalCandy * keCandyPrice 
-		8. Imprimir “El total de los dulces consumidos es ”, eTotalCandy “y el gasto del consumo es ”, eTotalConsuption
-		9. Fin
+	PSEUDOCÓDIGO
+		0.	Inicio
+		1.	Inicializar variables:
+			1.1	eCandyLeftOver <- 0
+			1.2	eTotalCandy <- 0
+			1.3	eTotalCandyPurchased <- 0
+			1.4	eTotalConsuption <- 0
+		2.	Inicializar constante:
+			2.1	keCandyPrice <- 12
+		3.	Imprimir "¿Cuántos dulces compraste? "
+		4.	Leer eTotalCandyPurchased.
+		5.	Imprimir "¿Cuántos dulces sobraron?"
+		6.	Leer eCandyLeftOver.
+		7.	Calcular eTotalCandy <- eTotalCandyPurchased - eCandyLeftOver
+		8.	Calcular eTotalConsuption <- eTotalCandy * keCandyPrice
+		9.	Imprimir "El total de los dulces consumidos es ", eTotalCandy "y el gasto del consumo es ", eTotalConsuption
+		10.	Fin
+
 */
 
 //Biblioteca al preprocesador para funciones de entrada y salida principalmente.

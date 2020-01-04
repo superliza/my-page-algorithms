@@ -32,12 +32,12 @@ int main() {
 	float fResult = 0; //variable que almacenará el valor del resultado final.
 	
 	//Se le pide al usuario que ingrese un número para determinar el valor de "a".
-	printf("Dame el valor de a: ");
+	printf("Escribe el valor de a: ");
 	//Se lee el valor de "a".
 	scanf("%i", &eNumberA);
 	
 	//Se le pide al usuaro que ingrese otro número para determinar el valor de "b".
-	printf("Dame el valor de b: ");
+	printf("Escribe el valor de b: ");
 	//Se lee el valor de "b".
 	scanf("%i", &eNumberB);
 	

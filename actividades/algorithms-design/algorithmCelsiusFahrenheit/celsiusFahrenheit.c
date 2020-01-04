@@ -5,22 +5,23 @@
 	Date: 15/12/19 17:44
 	Description: Convertir grados Fahrenheit a Celsius y grados Celsius Fahrenheit.
 	
-	PSEUDOCÓDIGO 
-		0. Inicio 
-		1. Inicializar variables: 
-			1.1 fCelsius <- 0 
-			1.2 fFahrenheit <- 0 
-			1.3 fResultFarenheit <- 0 
-			1.4 fResultCelsius <- 0 
-		2. Imprimir “Dame los grados Celsius para convertirlos a grados Fahrenheit.” 
-		3. Leer fCelsius. 
-		4. Calcular fResultFahrenheit <- (fCelsius * 1.8) + 32 
-		5. Imprimir “Los grados Celsius a grados Fahrenheit son ” fResultFahrenheit 
-		6. Imprimir “Dame los grados Fahrenheit para convertirlos a grados Celsius.” 
-		7. Leer fFahrenheit. 
-		8. Calcular fResultCelsius ? (fFahrenheit – 32) / 1.8 
-		9. Imprimir “Los grados Fahrenheit a grados Celsius son ” fResultCelsius 
-		10. Fin
+	PSEUDOCÓDIGO
+		0.	Inicio
+		1.	Inicializar variables:
+			1.1	fCelsius <-0
+			1.2	fFahrenheit <- 0
+			1.3	fResultFarenheit <- 0
+			1.4	fResultCelsius <- 0
+		2.	Imprimir "Dame los grados Celsius para convertirlos a grados Fahrenheit: "
+		3.	Leer fCelsius.
+		4.	Calcular fResultFahrenheit <- (fCelsius * 1.8) + 32
+		5.	Imprimir "Los grados Celsius a grados Fahrenheit son: " fResultFahrenheit
+		6.	Imprimir "Dame los grados Fahrenheit para convertirlos a grados Celsius: "
+		7.	Leer fFahrenheit.
+		8.	Calcular fResultCelsius <- (fFahrenheit - 32) / 1.8
+		9.	Imprimir "Los grados Fahrenheit a grados Celsius son: " fResultCelsius
+		10.	Fin.
+
 */
 
 //Biblioteca al preprocesador para funciones de entrada y salida principalmente.

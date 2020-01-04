@@ -31,12 +31,12 @@ int main() {
 	float fSurface = 0; //variable que almacena la superficie del triángulo.
 	
 	//se le pide al usuario que ingrese el valor de la base.
-	printf("Dame el valor de la base: ");
+	printf("Escribe el valor de la base: ");
 	//se lee el valor de la base.
 	scanf("%f", &fBase);
 	
 	//se le pide al usuario que ingrese el valor de la altura.
-	printf("Dame el valor de la altura: ");
+	printf("Escribe el valor de la altura: ");
 	//se lee el valor de la altura.
 	scanf("%f", &fHeight);
 	
