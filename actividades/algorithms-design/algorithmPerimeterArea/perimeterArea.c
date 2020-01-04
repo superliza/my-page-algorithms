@@ -6,20 +6,20 @@
 	Description: Obtener la base y la altura de un rectángulo y respecto a los valores que se reciban, calcular el perímetro y la superficie.
 	
 	PSEUDOCÓDIGO
-		0. Inicio
-		1. Inicializar variables:
-			1.1 fHeight <- 0
-			1.2 fBase <- 0
-			1.3 fPerimeter <- 0
-			1.4 fArea <- 0
-		2. Imprimir “dame el valor de la base.”
-		3. Leer fBase
-		4. Imprimir “dame el valor de la altura.”
-		5. Leer fHeight
-		6. Calcular fArea <- (fBase * fHeight)
-		7. Calcular fPerimeter <- (fBase + fHeight) * 2
-		8. Imprimir “El resultado del perímetro y el área es:” fPerimeter + “ ” + fArea.
-		9. Fin
+		0.	Inicio
+		1.	Inicializar variables:
+			1.1	fHeight <- 0
+			1.2	fBase <- 0
+			1.3	fPerimeter <- 0
+			1.4	fArea <- 0
+		2.	Imprimir "Escribe el valor de la base: "
+		3.	Leer fBase
+		4.	Imprimir "Escribe el valor de la altura: "
+		5.	Leer fHeight
+		6.	Calcular fArea <- fBase * fHeight
+		7.	Calcular fPerimeter <- (fBase + fHeight) * 2
+		8.	Imprimir "El resultado del perímetro es " fPerimeter "y el resultado del área es " fArea.
+		9.	Fin
 */
 
 //Biblioteca al preprocesador para funciones de entrada y salida principalmente.
